@@ -1,4 +1,4 @@
-package ma.skypay.enums;
+package zerheri.fatimazahrae.enums;
 
 public enum BookingStatus {
     CONFIRMED,

@@ -49,7 +49,7 @@ Ce projet est une implémentation Java d’un mini-système de réservation d’
 ### Lancer le projet :
 ```bash
 javac -d out src/ma/skypay/**/*.java
-java -cp out ma.skypay.Main
+java -cp out zerheri.fatimazahrae.Main
 
 ````
 

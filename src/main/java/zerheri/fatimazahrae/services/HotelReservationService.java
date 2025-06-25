@@ -1,6 +1,7 @@
-package ma.skypay.services;
+package zerheri.fatimazahrae.services;
 
-import ma.skypay.enums.RoomType;
+import zerheri.fatimazahrae.enums.RoomType;
+import zerheri.fatimazahrae.exceptions.BookingException;
 
 import java.util.Date;
 
@@ -38,7 +39,7 @@ public interface HotelReservationService {
      * @param roomNumber Numéro de la chambre à réserver
      * @param checkIn Date d'arrivée
      * @param checkOut Date de départ
-     * @throws ma.skypay.exceptions.BookingException si la réservation ne peut pas être effectuée
+     * @throws BookingException si la réservation ne peut pas être effectuée
      */
     void bookRoom(int userId, int roomNumber, Date checkIn, Date checkOut);
 

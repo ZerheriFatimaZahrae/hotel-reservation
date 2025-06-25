@@ -1,11 +1,11 @@
-package ma.skypay.services;
+package zerheri.fatimazahrae.services;
 
-import ma.skypay.enums.BookingStatus;
-import ma.skypay.enums.RoomType;
-import ma.skypay.exceptions.BookingException;
-import ma.skypay.models.Booking;
-import ma.skypay.models.Room;
-import ma.skypay.models.User;
+import zerheri.fatimazahrae.enums.BookingStatus;
+import zerheri.fatimazahrae.enums.RoomType;
+import zerheri.fatimazahrae.exceptions.BookingException;
+import zerheri.fatimazahrae.models.Booking;
+import zerheri.fatimazahrae.models.Room;
+import zerheri.fatimazahrae.models.User;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

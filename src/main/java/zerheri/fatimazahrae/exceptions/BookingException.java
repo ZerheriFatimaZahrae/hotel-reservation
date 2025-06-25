@@ -1,4 +1,4 @@
-package ma.skypay.exceptions;
+package zerheri.fatimazahrae.exceptions;
 
 public class BookingException extends Exception {
     public BookingException(String message) {

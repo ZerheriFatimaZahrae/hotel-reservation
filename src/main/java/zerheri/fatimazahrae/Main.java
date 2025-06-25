@@ -1,10 +1,9 @@
-package ma.skypay;
+package zerheri.fatimazahrae;
 
-import ma.skypay.enums.RoomType;
-import ma.skypay.services.HotelReservationService;
-import ma.skypay.services.HotelReservationServiceFactory;
+import zerheri.fatimazahrae.enums.RoomType;
+import zerheri.fatimazahrae.services.HotelReservationService;
+import zerheri.fatimazahrae.services.HotelReservationServiceFactory;
 
-import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

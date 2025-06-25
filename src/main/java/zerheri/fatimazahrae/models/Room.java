@@ -1,6 +1,6 @@
-package ma.skypay.models;
+package zerheri.fatimazahrae.models;
 
-import ma.skypay.enums.RoomType;
+import zerheri.fatimazahrae.enums.RoomType;
 
 import java.time.LocalDateTime;
 
