@@ -4,11 +4,19 @@ import ma.skypay.enums.RoomType;
 import ma.skypay.services.HotelReservationService;
 import ma.skypay.services.HotelReservationServiceFactory;
 
+import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
+        /*try {
+            PrintStream fileOut = new PrintStream("output.txt");
+            System.setOut(fileOut);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
+
         // Utilisation de l'interface avec factory pattern
         HotelReservationService hotelService = HotelReservationServiceFactory.createService();
         try {
